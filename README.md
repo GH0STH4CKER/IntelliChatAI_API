@@ -4,7 +4,7 @@ url = https://intelli-chat-ai.vercel.app/chat;</br>
 data = {
    user_input: Hi;
 }</br>
-response = requests.post(url, data=data)</br>
+response = requests.post(url, data=data)<br>
 if response.status_code == 200:
     print(response.text)
 else:
